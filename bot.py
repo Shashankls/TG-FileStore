@@ -77,12 +77,13 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("NEW MOVIES 🥰", url="https://t.me/+I8SnDgfPDCc1MDM1")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton(" Support Group", url="https://t.me/+XTOX5WcV-_MzNzhl")
+
+ 
                     ],
                     [
-     
-                        InlineKeyboardButton(" Support Group", url="https://t.me/+XTOX5WcV-_MzNzhl")
+ InlineKeyboardButton("Close 🚪", callback_data="closeMessage")    
+                        
                     ]
                 ]
             )
@@ -334,7 +335,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     
                         
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
                     ]
                 ]
@@ -351,12 +352,11 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("NEW MOVIES 🥰", url="https://t.me/+I8SnDgfPDCc1MDM1")
                     ],
                     [
-                        
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
+  InlineKeyboardButton("MOVIES  request Group", url="https://t.me/+XTOX5WcV-_MzNzhl"),
+                       
+                     ],
                     [
-                        InlineKeyboardButton("MOVIES  request Group", url="https://t.me/+XTOX5WcV-_MzNzhl"),
- 
+      InlineKeyboardButton("Close 🚪", callback_data="closeMessage")                  
                     ]
                 ]
             )
@@ -407,10 +407,10 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("MOVIES request Group", url="https://t.me/+XTOX5WcV-_MzNzhl"),
                         InlineKeyboardButton("NEW MOVIES 🥰", url="https://t.me/+I8SnDgfPDCc1MDM1")
                     ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                    
                         
-                    ]
+                        
+                    
                 ]
             )
         )
